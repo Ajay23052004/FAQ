@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aboreto&family=Kalam:wght@300&family=Lexend+Deca:wght@600&display=swap"
+        rel="stylesheet">
+    <title>FAQ-Section</title>
+</head>
+<!------------------------------------Css Styling--------------------------->
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    html {
+        font-size: 10px;
+        /*------ 10px = 1rem-------*/
+        /*by default 16px=1rem--------*/
+    }
+
+    body {
+
+        height: 100vh;
+        font-family: 'Lexend Deca', sans-serif;
+        background: rgb(169, 197, 195, .3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /*------------------FAQS -------------*/
+    .faq {
+        width: 80rem;
+        max-width: 80rem;
+        height: 80%;
+        margin: 0 auto;
+        padding: 0 2rem;
+        background-color: rgb(233, 241, 249, .4);
+        box-shadow: -5px -2px 10px black;
+        margin: 0 5rem;
+        overflow: scroll;
+
+    }
+
+    .faq h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 5rem;
+    }
+
+    .faq summary {
+        font-size: 2.2rem;
+        font-weight: 800;
+        transition: .4s;
+    }
+
+    summary:hover {
+        cursor: pointer;
+    }
+
+    .faq p {
+        margin-left: 20px;
+        font-size: 1.8rem;
+
+    }
+
+    details {
+        margin-bottom: 2rem;
+    }
+
+    details[open] summary {
+        color: rgb(122, 209, 173);
+
+    }
+
+    details[open] p {
+        background-color: #FFCCAB;
+        padding: 3rem;
+    }
+
+    /*---------------Responsiveness in font size for small devices ----*/
+    @media (max-width:600px) {
+        html {
+            font-size: 8px;
+        }
+    }
+</style>
+
+<body>
+    <!---------------------------fAQS---------------->
+    <section class="faq">
+        <h1>FAQs of ok</h1>
+        <details open>
+            <summary><span style="color:crimson"> jay </span> trying to impress girl with this looks..</summary>
+            <p>
+               <img style="width:100%;" src="WhatsApp Image 2023-04-05 at 12.57.14.jpg" alt="">
+            </p>
+        </details>
+        <details>
+            <summary><span style="color:crimson"> jay </span>Before os Exam.</summary>
+            <p><video  width="100%"  height="100%" controls autoplay muted loop>
+                <source  src="ivnNzvmwKy3QYSweRj0WpaSogrVnUx4ta-KWYIllcP0=_plaintext_638162762258875145.mp4">
+            </video></p>
+        </details>
+        <details>
+            <summary>This is master piece</summary>
+            <p><img style="width:100%" src="WhatsApp Image 2023-04-05 at 12.57.26.jpg" alt="">
+                
+            </p>
+        </details>
+        <details>
+            <summary>Main to chill karunga..</summary>
+            <p><img style="width:100%" src="WhatsApp Image 2023-04-05 at 12.57.23.jpg" alt=""></p>
+        </details>
+        <details>
+            <summary><span style="color:crimson">Aur kese ho Keval bro</span></summary>
+            <p>
+                <video  width="100%"  height="100%" controls autoplay muted loop>
+                    <source  src="WhatsApp Video 2023-04-05 at 12.57.20.mp4">
+                </video>
+            </p>
+        </details>
+
+
+
+    </section>
+
+</body>
+
+</html>
